@@ -24,6 +24,12 @@ import numeric from './company/numeric.jpg'
 import resume from "./resume.jpg";
 import bestgoods from "./bestgoods.png";
 import workplace from "./workplace.jpg";
+import myImage from "./myImage.jpg"
+import mypic1 from "./mypic1.jpg"
+import mypic2 from "./mypic2.jpg"
+import mypic3 from "./mypic3.jpg"
+import mypic4 from "./mypic4.jpeg"
+import mypic5 from "./mypic5.jpeg"
 
 export {
   logo,
@@ -48,5 +54,11 @@ export {
   qutrix,
   numeric,
   bestgoods,
-  workplace
+  workplace,
+  myImage,
+  mypic1,
+  mypic2,
+  mypic3,
+  mypic4,
+  mypic5
 };

@@ -17,7 +17,12 @@ import {
     qutrix,
     numeric,
     resume,
-    workplace
+    workplace,
+    mypic1,
+    mypic2,
+    mypic3,
+    mypic4,
+    mypic5
   } from "../assets";
   
   export const navLinks = [
@@ -41,20 +46,19 @@ import {
   
   const services = [
     {
-      title: "Web Developer",
-      icon: web,
+      icon: mypic1,
     },
     {
-      title: "ReactJS Developer",
-      icon: mobile,
+      icon: mypic2,
     },
     {
-      title: "Backend Developer",
-      icon: backend,
+      icon: mypic3,
     },
     {
-      title: "Artist",
-      icon: creator,
+      icon: mypic4,
+    },
+    {
+      icon: mypic5,
     },
   ];
   

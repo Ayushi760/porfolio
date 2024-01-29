@@ -1,9 +1,10 @@
 import React from 'react'
 import { Tilt } from 'react-tilt'
+import { myImage } from '../assets'
 const Hero = () => {
   return (
     <section className='relative w-[80%] h-screen mx-auto'>
-      <div className="absolute top-[200px] mx-auto flex flex-col items-center w-full gap-8 xs:gap-6">
+      <div className="absolute top-[200px] mx-auto flex flex-col items-center w-full gap-8 xs:gap-6 xs:top-[180px]">
         <h1 className="text-white text-4xl font-bold text-center leading-12 xs:text-2xl" >
           Full Stack Developer, Coder and Artist.
         </h1>
@@ -15,7 +16,7 @@ const Hero = () => {
             speed: 450,
           }}
         >
-          <img src='myImage.jpg' alt='image' className='rounded-full w-48 cursor-pointer shadow-imgShadow hover:shadow-imgShadowHover' />
+          <img src={myImage} alt='myimg' className='rounded-full w-48 cursor-pointer shadow-imgShadow hover:shadow-imgShadowHover transition-all duration-500 ease-in-out' />
         </Tilt>
       </div>
     </section>
