@@ -1,0 +1,28 @@
+{
+  "files": {
+    "main.css": "/portfolio/static/css/main.b2ebc0d5.css",
+    "main.js": "/portfolio/static/js/main.2852c3f7.js",
+    "static/js/787.7da95b79.chunk.js": "/portfolio/static/js/787.7da95b79.chunk.js",
+    "static/media/herobg.png": "/portfolio/static/media/herobg.ad33add2430e34307c33.png",
+    "static/media/bestgoods.png": "/portfolio/static/media/bestgoods.b328019dd94dcd25ea83.png",
+    "static/media/resume.jpg": "/portfolio/static/media/resume.53dc32cdb1379dbc5358.jpg",
+    "static/media/workplace.jpg": "/portfolio/static/media/workplace.fdeccfadb1d338351afb.jpg",
+    "static/media/web.png": "/portfolio/static/media/web.c0cb2cc13791a26822d3.png",
+    "static/media/backend.png": "/portfolio/static/media/backend.08c8d93b8142c41a9e63.png",
+    "static/media/logo.png": "/portfolio/static/media/logo.7f673be53abfe4198f98.png",
+    "static/media/mobile.png": "/portfolio/static/media/mobile.15e7b89f1018dcdba6e7.png",
+    "static/media/creator.png": "/portfolio/static/media/creator.f8923ce18390029928ac.png",
+    "static/media/qutrix.png": "/portfolio/static/media/qutrix.ee08107e86988dee74f7.png",
+    "static/media/github.png": "/portfolio/static/media/github.ed1c06d925fff0b57e32.png",
+    "static/media/close.svg": "/portfolio/static/media/close.52ab0d39b2c514b8322115c951eac5a2.svg",
+    "static/media/menu.svg": "/portfolio/static/media/menu.acf64a387fc724c7a47a3a0120d5dc52.svg",
+    "index.html": "/portfolio/index.html",
+    "main.b2ebc0d5.css.map": "/portfolio/static/css/main.b2ebc0d5.css.map",
+    "main.2852c3f7.js.map": "/portfolio/static/js/main.2852c3f7.js.map",
+    "787.7da95b79.chunk.js.map": "/portfolio/static/js/787.7da95b79.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.b2ebc0d5.css",
+    "static/js/main.2852c3f7.js"
+  ]
+}
