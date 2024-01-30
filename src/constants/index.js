@@ -22,7 +22,8 @@ import {
     mypic2,
     mypic3,
     mypic4,
-    mypic5
+    mypic5,
+    visionclara
   } from "../assets";
   
   export const navLinks = [
@@ -99,6 +100,18 @@ import {
   ];
   
   const experiences = [
+    {
+      title: "Full Software Developer - Intern",
+      company_name: "VisionClara IT Solutions",
+      icon: visionclara,
+      iconBg: "#383E56",
+      date: "January 2024 - Present",
+      points:[
+        "Understanding the project requirements.",
+        "Developed UI as per the requirements.",
+        "Resolved feedback on code review."
+      ]
+    },
     {
       title: "Software Developer - Intern",
       company_name: "Qutrix Solutions Private Limited",

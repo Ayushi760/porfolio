@@ -30,6 +30,7 @@ import mypic2 from "./mypic2.jpg"
 import mypic3 from "./mypic3.jpg"
 import mypic4 from "./mypic4.jpeg"
 import mypic5 from "./mypic5.jpeg"
+import visionclara from "./company/visionclara.png"
 
 export {
   logo,
@@ -60,5 +61,6 @@ export {
   mypic2,
   mypic3,
   mypic4,
-  mypic5
+  mypic5,
+  visionclara
 };
