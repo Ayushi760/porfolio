@@ -101,7 +101,7 @@ import {
   
   const experiences = [
     {
-      title: "Full Software Developer - Intern",
+      title: "Full Stack Developer - Intern",
       company_name: "VisionClara IT Solutions",
       icon: visionclara,
       iconBg: "#383E56",
