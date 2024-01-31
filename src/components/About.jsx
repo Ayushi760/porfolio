@@ -33,10 +33,10 @@ const ServiceCard = ({ index, title, icon }) => {
     >
       <motion.div
         variants={fadeIn("right", "spring", index * 0.5, 0.75)}
-        className='w-full green-pink-gradient p-[1px] rounded-[20px] shadow-card'
+        className='w-full green-pink-gradient p-[1px] rounded-[20px] dark:shadow-card'
       >
           <div
-            className='bg-tertiary rounded-[20px] overflow-hidden h-[180px] flex justify-evenly items-center flex-col xs:h-[150px]'
+            className='rounded-[20px] overflow-hidden h-[180px] flex justify-evenly items-center flex-col xs:h-[150px]'
           >
             <img
               src={icon}
@@ -53,8 +53,8 @@ const About = () => {
   return (
     <>
       <motion.div>
-        <p className="sm:text-[18px] text-[14px] text-secondary uppercase tracking-wider">Introduction</p>
-        <h2 className="text-white font-black md:text-[60px] sm:text-[50px] xs:text-[30px] text-[30px]">
+        <p className="sm:text-[18px] text-[14px] dark:text-secondary text-[#bf61ff] uppercase tracking-wider">Introduction</p>
+        <h2 className="dark:text-white text-[#804dee] font-black md:text-[60px] sm:text-[50px] xs:text-[30px] text-[30px]">
           Overview
         </h2>
       </motion.div>

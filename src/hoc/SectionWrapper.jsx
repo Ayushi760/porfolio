@@ -4,7 +4,8 @@ import { styles } from "../styles";
 import { staggerContainer } from "../utils/motion";
 
 const SectionWrapper = (Component, idName) =>
-  function HOC() {
+  function HOC(props) {
+    const { theme } = props;
     return (
       <motion.section
         variants={staggerContainer()}
@@ -17,7 +18,7 @@ const SectionWrapper = (Component, idName) =>
           &nbsp;
         </span>
 
-        <Component />
+        <Component theme={theme} {...props}/>
       </motion.section>
     );
   };

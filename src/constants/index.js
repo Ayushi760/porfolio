@@ -40,6 +40,10 @@ import {
       title: "Work",
     },
     {
+      id: "skills",
+      title: "Skills",
+    },
+    {
       id: "contact",
       title: "Contact",
     },
@@ -90,7 +94,7 @@ import {
       value:"40%"
     },
     {
-      name: "HTML 5",
+      name: "HTML5",
       color:"#686de0",
       value:"60%"
     },
@@ -100,7 +104,7 @@ import {
       value:"50%"
     },
     {
-      name: "git",
+      name: "Git",
       color:"#535c68",
       value:"50%"
     },
@@ -126,7 +130,7 @@ import {
       iconBg: "#383E56",
       date: "August 2022 - November 2022",
       points: [
-        "Successfullymanaged and resolved a total of 25 complex issues by handling 25 merge requests during a highly productive 3-month internship.",
+        "Successfully managed and resolved a total of 25 complex issues by handling 25 merge requests during a highly productive 3-month internship.",
         "Collaborated seamlessly with cross-functional teams to translate business requirements into technical solutions.",
         "Played a pivotal role in implementing new features, enhancing user experiences, and ensuring a high-quality product through rigorous testing and adherence to responsive design principles",
         "Employed version control tools, notably Git, to efficiently manage and track changes to the codebase, ensuring code stability and collaboration with team members.",

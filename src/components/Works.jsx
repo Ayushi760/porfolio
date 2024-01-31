@@ -24,7 +24,7 @@ const ProjectCard = ({
           scale: 1,
           speed: 450,
         }}
-        className='bg-tertiary p-5 rounded-2xl sm:w-[360px] w-full'
+        className='dark:bg-tertiary bg-[#e5e7eb] p-5 rounded-2xl sm:w-[360px] w-full'
       >
         <div className='relative w-full h-[180px]'>
           <img
@@ -48,8 +48,8 @@ const ProjectCard = ({
         </div>
 
         <div className='mt-5'>
-          <h3 className='text-white font-bold text-[24px] xs:text-[20px]'>{name}</h3>
-          <p className='mt-2 text-secondary text-[12px]'>{description}</p>
+          <h3 className='dark:text-white text-[#804dee] font-bold text-[24px] xs:text-[20px]'>{name}</h3>
+          <p className='mt-2 dark:text-secondary text-[#434343] text-[12px]'>{description}</p>
         </div>
 
         <div className='mt-4 flex flex-wrap gap-2'>
@@ -71,8 +71,8 @@ const Works = () => {
   return (
     <>
       <motion.div variants={textVariant()}>
-        <p className="sm:text-[18px] text-[14px] text-secondary uppercase tracking-wider">My work</p>
-        <h2 className="text-white font-black md:text-[60px] sm:text-[50px] xs:text-[30px] text-[30px]">Projects.</h2>
+        <p className="sm:text-[18px] text-[14px] dark:text-secondary text-[#bf61ff] uppercase tracking-wider">My work</p>
+        <h2 className="dark:text-white text-[#804dee] font-black md:text-[60px] sm:text-[50px] xs:text-[30px] text-[30px]">Projects.</h2>
       </motion.div>
 
       <div className='w-full flex'>
