@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.f4c34f5c.css",
-    "main.js": "/portfolio/static/js/main.bd75d203.js",
+    "main.css": "/portfolio/static/css/main.19fa4e6b.css",
+    "main.js": "/portfolio/static/js/main.ea273d35.js",
     "static/js/787.7da95b79.chunk.js": "/portfolio/static/js/787.7da95b79.chunk.js",
     "static/media/mypic3.jpg": "/portfolio/static/media/mypic3.e9de8712a69895210a08.jpg",
     "static/media/mypic4.jpeg": "/portfolio/static/media/mypic4.a75ad6fe1f3ae4e13681.jpeg",
@@ -22,13 +22,16 @@
     "static/media/github.png": "/portfolio/static/media/github.ed1c06d925fff0b57e32.png",
     "static/media/close.svg": "/portfolio/static/media/close.52ab0d39b2c514b8322115c951eac5a2.svg",
     "static/media/menu.svg": "/portfolio/static/media/menu.acf64a387fc724c7a47a3a0120d5dc52.svg",
+    "static/media/LinkedinLogo.svg": "/portfolio/static/media/LinkedinLogo.456b742b6debdded90a78d3b63a8991a.svg",
+    "static/media/GithubLogo.svg": "/portfolio/static/media/GithubLogo.563be77929f2298b4e54244ed587a37b.svg",
+    "static/media/InstagramLogo.svg": "/portfolio/static/media/InstagramLogo.62e66afababcde191d50684d3652d33e.svg",
     "index.html": "/portfolio/index.html",
-    "main.f4c34f5c.css.map": "/portfolio/static/css/main.f4c34f5c.css.map",
-    "main.bd75d203.js.map": "/portfolio/static/js/main.bd75d203.js.map",
+    "main.19fa4e6b.css.map": "/portfolio/static/css/main.19fa4e6b.css.map",
+    "main.ea273d35.js.map": "/portfolio/static/js/main.ea273d35.js.map",
     "787.7da95b79.chunk.js.map": "/portfolio/static/js/787.7da95b79.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.f4c34f5c.css",
-    "static/js/main.bd75d203.js"
+    "static/css/main.19fa4e6b.css",
+    "static/js/main.ea273d35.js"
   ]
 }
