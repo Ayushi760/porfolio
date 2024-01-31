@@ -32,6 +32,10 @@ import mypic4 from "./mypic4.jpeg"
 import mypic5 from "./mypic5.jpeg"
 import visionclara from "./company/visionclara.png"
 
+import instagram from "./socialmedia/InstagramLogo.svg";
+import giticon from "./socialmedia/GithubLogo.svg";
+import linkedin from "./socialmedia/LinkedinLogo.svg";
+
 export {
   logo,
   backend,
@@ -62,5 +66,8 @@ export {
   mypic3,
   mypic4,
   mypic5,
-  visionclara
+  visionclara,
+  giticon,
+  instagram,
+  linkedin,
 };

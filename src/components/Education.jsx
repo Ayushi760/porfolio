@@ -47,7 +47,7 @@ const Education = () => {
         className="dark:bg-tertiary bg-white rounded-2xl sm:px-16 px-6 sm:py-16 py-10 min-h-[180px]"
       >
         <motion.div variants={textVariant()}>
-      <h2 className="dark:text-white text-[#804dee] font-black md:text-[60px] sm:text-[50px] xs:text-[30px] text-[30px] mb-4">Education</h2>
+      <h2 className="dark:text-white text-[#804dee] font-black md:text-[60px] sm:text-[50px] xs:text-[30px] text-[30px] mb-4">Education.</h2>
         </motion.div>
       </div>
       <div className="-mt-20 pb-14 px-6 flex gap-4 flex-wrap justify-center">

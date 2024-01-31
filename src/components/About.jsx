@@ -5,6 +5,8 @@ import { services } from '../constants';
 import { fadeIn, textVariant } from '../utils/motion';
 import { SectionWrapper } from '../hoc';
 import Swal from 'sweetalert2'
+import { Link } from 'react-router-dom';
+import { instagram,giticon,linkedin } from '../assets';
 
 
 const ServiceCard = ({ index, title, icon }) => {
@@ -65,6 +67,11 @@ const About = () => {
         {services.map((service, index) => (
           <ServiceCard key={service.title} index={index} {...service} />
         ))}
+      </div>
+      <div className='flex mt-14 w-full justify-center gap-5'>
+        <Link to="https://www.linkedin.com/in/ayushi-saxena-b094b0217/" target='_blank'><img src={linkedin} alt='linkedin'/></Link>
+        <Link to="https://github.com/Ayushi760"><img src={giticon} alt='git' target='_blank'/></Link>
+        <Link to="https://www.instagram.com/ayushi___saxena/" target='_blank'><img src={instagram} alt='instagram' /></Link>
       </div>
     </>
   )

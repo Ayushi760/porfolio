@@ -45,7 +45,7 @@ const Navbar = ({ handleThemeSwitch, theme }) => {
         </div>
         <div className='sm:hidden flex justify-end items-center'>
           <img src={toggle ? close : menu} alt="menu" className='w-[28px] h-[28px] object-contain cursor-pointer dark:invert-0 invert-[.25]' onClick={() => setToggle(!toggle)} />
-          <div className={`${!toggle ? 'hidden' : 'flex'} p-6 dark:black-gradient bg-[#e2e4ea] absolute top-20 right-0 mx-4 my-2 min-w-[140px] z-10 rounded-xl`}>
+          <div className={`${!toggle ? 'hidden' : 'flex'} p-6 dark:bg-[#121626] bg-[#e2e4ea] absolute top-20 right-0 mx-4 my-2 min-w-[140px] z-10 rounded-xl`}>
             <ul className='list-none flex justify-end items-start flex-col gap-4'>
               {
                 navLinks.map((link) => (
