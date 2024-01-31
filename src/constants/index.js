@@ -65,37 +65,44 @@ import {
   
   const technologies = [
     {
-      name: "HTML 5",
-      icon: html,
+      name:"C++",
+      value:"70%",
+      color:"#81ecec"
     },
-    {
-      name: "CSS",
-      icon: css,
-    },
-    {
-      name: "JavaScript",
-      icon: javascript,
-    },
-
     {
       name: "React JS",
-      icon: reactjs,
+      color:"#a29bfe",
+      value:"60%"
     },
     {
       name: "Redux Toolkit",
-      icon: redux,
+      color:"#2c2c54",
+      value:"40%"
     },
     {
       name: "Node JS",
-      icon: nodejs,
+      color:"#4a69bd",
+      value:"40%"
     },
     {
       name: "MongoDB",
-      icon: mongodb,
+      color:"#33d9b2",
+      value:"40%"
+    },
+    {
+      name: "HTML 5",
+      color:"#686de0",
+      value:"60%"
+    },
+    {
+      name: "CSS",
+      color:"#95afc0",
+      value:"50%"
     },
     {
       name: "git",
-      icon: git,
+      color:"#535c68",
+      value:"50%"
     },
   ];
   
