@@ -10,7 +10,7 @@ const Navbar = ({ handleThemeSwitch, theme }) => {
   return (
     <nav className="w-full flex items-center p-5 fixed top-0 z-20 dark:bg-primary bg-white">
       <div className='w-full flex justify-between items-center max-w-7xl mx-auto'>
-        <Link to="/" className="flex items-center gap-2" onClick={() => { setActive(""); window.scrollTo(0, 0) }}>
+        <Link to="/portfolio" className="flex items-center gap-2" onClick={() => { setActive(""); window.scrollTo(0, 0) }}>
           <img src={logo} alt='logo' className='w-14 h-14 object-contain' />
           <p className='dark:text-white text-[#804dee] text-[18px] font-bold cursor-pointer flex'>Ayushi Saxena</p>
         </Link>
