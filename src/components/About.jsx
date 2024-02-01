@@ -1,52 +1,47 @@
-import React from 'react'
+import React from 'react';
 import { Tilt } from 'react-tilt';
 import { motion } from 'framer-motion';
 import { services } from '../constants';
 import { fadeIn, textVariant } from '../utils/motion';
 import { SectionWrapper } from '../hoc';
-import Swal from 'sweetalert2'
+import Swal from 'sweetalert2';
 import { Link } from 'react-router-dom';
-import { instagram,giticon,linkedin } from '../assets';
+import { instagram, giticon, linkedin } from '../assets';
 
 
 const ServiceCard = ({ index, title, icon }) => {
   const handleImageClick = () => {
     Swal.fire({
       title: "Do you want to connect with me on instagram?",
-      showConfirmButton:true,
-      showCancelButton:true,
+      showConfirmButton: true,
+      showCancelButton: true,
       confirmButtonText: "Yes",
-      cancelButtonText:"Cancel",
-      customClass:{
-        title:"text-lg",
-        confirmButton:"text-xs bg-[#804dee]",
-        cancelButton:"text-xs",
+      cancelButtonText: "Cancel",
+      customClass: {
+        title: "text-lg",
+        confirmButton: "text-xs bg-[#804dee]",
+        cancelButton: "text-xs",
       }
     }).then((result) => {
-      /* Read more about isConfirmed, isDenied below */
       if (result.isConfirmed) {
         window.open("https://www.instagram.com/ayushi___saxena/", "_blank");
       }
     });
   };
   return (
-    <Tilt className='xs:max-w-[160px] w-full max-w-[210px]'
-
-    >
+    <Tilt className='xs:max-w-[160px] w-full max-w-[210px]'>
       <motion.div
         variants={fadeIn("right", "spring", index * 0.5, 0.75)}
         className='w-full green-pink-gradient p-[1px] rounded-[20px] dark:shadow-card'
       >
-          <div
-            className='rounded-[20px] overflow-hidden h-[180px] flex justify-evenly items-center flex-col xs:h-[150px]'
-          >
-            <img
-              src={icon}
-              alt='web-development'
-              className='w-full h-full cursor-pointer object-cover'
-              onClick={handleImageClick}
-            />
-          </div>
+        <div className='rounded-[20px] overflow-hidden h-[180px] flex justify-evenly items-center flex-col xs:h-[150px]'>
+          <img
+            src={icon}
+            alt='web-development'
+            className='w-full h-full cursor-pointer object-cover'
+            onClick={handleImageClick}
+          />
+        </div>
       </motion.div>
     </Tilt>
   )
@@ -69,8 +64,8 @@ const About = () => {
         ))}
       </div>
       <div className='flex mt-14 w-full justify-center gap-5'>
-        <Link to="https://www.linkedin.com/in/ayushi-saxena-b094b0217/" target='_blank'><img src={linkedin} alt='linkedin'/></Link>
-        <Link to="https://github.com/Ayushi760"><img src={giticon} alt='git' target='_blank'/></Link>
+        <Link to="https://www.linkedin.com/in/ayushi-saxena-b094b0217/" target='_blank'><img src={linkedin} alt='linkedin' /></Link>
+        <Link to="https://github.com/Ayushi760"><img src={giticon} alt='git' target='_blank' /></Link>
         <Link to="https://www.instagram.com/ayushi___saxena/" target='_blank'><img src={instagram} alt='instagram' /></Link>
       </div>
     </>
