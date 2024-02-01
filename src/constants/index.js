@@ -239,7 +239,7 @@ import {
 
       ],
       image: resume,
-      source_code_link: "https://github.com/Ayushi1610/resumebuilder.githttps://github.com/",
+      source_code_link: "https://github.com/Ayushi1610/resumebuilder",
     },
     {
       name: "CollabSphere | Workplace",
@@ -260,7 +260,7 @@ import {
         },
       ],
       image: workplace,
-      source_code_link: "https://github.com/",
+      source_code_link: "https://github.com/Ayushi1610",
     },
   ];
   
