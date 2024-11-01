@@ -17,3 +17,5 @@ artifacts:
   base-directory: .
   files:
     - '**/*'
+  exclude:
+    - '**/node_modules/**'
