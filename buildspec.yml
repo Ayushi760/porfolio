@@ -13,11 +13,6 @@ phases:
       - echo "Building the React app..."
       - npm run build
 
-  post_build:
-    commands:
-      - echo "Build completed!"
-      - aws s3 cp build/ s3://portfolio-ayushi/ --recursive
-
 artifacts:
   files:
     - **/*
