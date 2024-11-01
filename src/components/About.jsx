@@ -56,7 +56,7 @@ const About = () => {
         </h2>
       </motion.div>
       <motion.p variants={fadeIn("", "", 0.1, 1)} className='mt-4 text-secondary text-[15px] leading-[30px] xs:text-sm'>
-        Aspiring developer with a strong desire to contribute my technical skills and knowledge to an organization. Committed to continuous learning and growth, I aim to harness my passion to deliver valuable solutions while enhancing my expertise within a team.
+        Aspiring developer with a strong desire to contribute my technical skills and knowledge to an organization. Committed to continuous learning and growth, I aim to harness my passion to deliver valuable solutions while enhancing my expertise within a team
       </motion.p>
       <div className='mt-20 flex flex-wrap gap-5 justify-center xs:gap-2'>
         {services.map((service, index) => (
